@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R Id="68031" V="0" DC="SM" EN="Office.TellMe.TellMeD.SessionEndStateLogging" ATT="31d9dd3e4c7046a696537586281d7ed1-06d11dd6-a946-4281-8ac3-a7c2ab4776f5-7063" SP="CriticalBusinessImpact" DL="N" DCa="PSU" xmlns="">
+  <S>
+    <UTS T="1" Id="ddth1" A="ddth2 ddth3" />
+  </S>
+  <C T="G" I="0" O="false" N="TellMeSessionId">
+    <S T="1" F="SessionId" />
+  </C>
+  <C T="TAG" I="1" O="true" N="Tag">
+    <S T="1" F="ULS_Tag" M="Ignore" />
+  </C>
+  <C T="W" I="2" O="false" N="Type">
+    <S T="1" F="Type" />
+  </C>
+  <C T="W" I="3" O="true" N="Context">
+    <S T="1" F="Context" M="Ignore" />
+  </C>
+  <C T="U32" I="4" O="true" N="GroupIndex">
+    <S T="1" F="GroupIndex" M="Ignore" />
+  </C>
+  <C T="W" I="5" O="false" N="NamespaceLog">
+    <S T="1" F="NamespaceLog" />
+  </C>
+  <T>
+    <S T="1" />
+  </T>
+</R>
